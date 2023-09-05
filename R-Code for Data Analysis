@@ -1,0 +1,630 @@
+
+
+R version 4.3.1 (2023-06-16 ucrt) -- "Beagle Scouts"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(readxl)
+Error in library(readxl) : there is no package called ‘readxl’
+> 
+> gfg_data=read_excel('Data_gfg.xlsx')
+Error in read_excel("Data_gfg.xlsx") : 
+  could not find function "read_excel"
+> 
+> gfg_data
+Error: object 'gfg_data' not found
+> library(readxl)
+Error in library(readxl) : there is no package called ‘readxl’
+> 
+> gfg_data=read_excel('Data_gfg.xlsx')
+Error in read_excel("Data_gfg.xlsx") : 
+  could not find function "read_excel"
+> 
+> gfg_data
+Error: object 'gfg_data' not found
+> library("readxl")
+Error in library("readxl") : there is no package called ‘readxl’
+> read_excel("C:\Users\chinedu okolie\Downloads\MSC\\Fresh_extract_Diss.xlsx")
+Error: '\U' used without hex digits in character string (<input>:1:16)
+> install.packages("readxl")
+Warning in install.packages("readxl") :
+  'lib = "C:/Program Files/R/R-4.3.1/library"' is not writable
+Error in install.packages("readxl") : unable to install packages
+> install.packages("readxl")
+Warning in install.packages("readxl") :
+  'lib = "C:/Program Files/R/R-4.3.1/library"' is not writable
+--- Please select a CRAN mirror for use in this session ---
+also installing the dependencies ‘cli’, ‘glue’, ‘utf8’, ‘rematch’, ‘fansi’, ‘lifecycle’, ‘magrittr’, ‘pillar’, ‘pkgconfig’, ‘rlang’, ‘vctrs’, ‘hms’, ‘prettyunits’, ‘R6’, ‘crayon’, ‘cellranger’, ‘tibble’, ‘cpp11’, ‘progress’
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/cli_3.6.1.zip'
+Content type 'application/zip' length 1335118 bytes (1.3 MB)
+downloaded 1.3 MB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/glue_1.6.2.zip'
+Content type 'application/zip' length 162410 bytes (158 KB)
+downloaded 158 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/utf8_1.2.3.zip'
+Content type 'application/zip' length 149639 bytes (146 KB)
+downloaded 146 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/rematch_2.0.0.zip'
+Content type 'application/zip' length 19051 bytes (18 KB)
+downloaded 18 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/fansi_1.0.4.zip'
+Content type 'application/zip' length 312767 bytes (305 KB)
+downloaded 305 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/lifecycle_1.0.3.zip'
+Content type 'application/zip' length 139112 bytes (135 KB)
+downloaded 135 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/magrittr_2.0.3.zip'
+Content type 'application/zip' length 226783 bytes (221 KB)
+downloaded 221 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/pillar_1.9.0.zip'
+Content type 'application/zip' length 659106 bytes (643 KB)
+downloaded 643 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/pkgconfig_2.0.3.zip'
+Content type 'application/zip' length 22446 bytes (21 KB)
+downloaded 21 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/rlang_1.1.1.zip'
+Content type 'application/zip' length 1567898 bytes (1.5 MB)
+downloaded 1.5 MB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/vctrs_0.6.3.zip'
+Content type 'application/zip' length 1331426 bytes (1.3 MB)
+downloaded 1.3 MB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/hms_1.1.3.zip'
+Content type 'application/zip' length 104264 bytes (101 KB)
+downloaded 101 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/prettyunits_1.1.1.zip'
+Content type 'application/zip' length 37631 bytes (36 KB)
+downloaded 36 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/R6_2.5.1.zip'
+Content type 'application/zip' length 84324 bytes (82 KB)
+downloaded 82 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/crayon_1.5.2.zip'
+Content type 'application/zip' length 162423 bytes (158 KB)
+downloaded 158 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/cellranger_1.1.0.zip'
+Content type 'application/zip' length 103900 bytes (101 KB)
+downloaded 101 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/tibble_3.2.1.zip'
+Content type 'application/zip' length 690639 bytes (674 KB)
+downloaded 674 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/cpp11_0.4.6.zip'
+Content type 'application/zip' length 316025 bytes (308 KB)
+downloaded 308 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/progress_1.2.2.zip'
+Content type 'application/zip' length 85959 bytes (83 KB)
+downloaded 83 KB
+
+trying URL 'https://www.stats.bris.ac.uk/R/bin/windows/contrib/4.3/readxl_1.4.3.zip'
+Content type 'application/zip' length 1194899 bytes (1.1 MB)
+downloaded 1.1 MB
+
+package ‘cli’ successfully unpacked and MD5 sums checked
+package ‘glue’ successfully unpacked and MD5 sums checked
+package ‘utf8’ successfully unpacked and MD5 sums checked
+package ‘rematch’ successfully unpacked and MD5 sums checked
+package ‘fansi’ successfully unpacked and MD5 sums checked
+package ‘lifecycle’ successfully unpacked and MD5 sums checked
+package ‘magrittr’ successfully unpacked and MD5 sums checked
+package ‘pillar’ successfully unpacked and MD5 sums checked
+package ‘pkgconfig’ successfully unpacked and MD5 sums checked
+package ‘rlang’ successfully unpacked and MD5 sums checked
+package ‘vctrs’ successfully unpacked and MD5 sums checked
+package ‘hms’ successfully unpacked and MD5 sums checked
+package ‘prettyunits’ successfully unpacked and MD5 sums checked
+package ‘R6’ successfully unpacked and MD5 sums checked
+package ‘crayon’ successfully unpacked and MD5 sums checked
+package ‘cellranger’ successfully unpacked and MD5 sums checked
+package ‘tibble’ successfully unpacked and MD5 sums checked
+package ‘cpp11’ successfully unpacked and MD5 sums checked
+package ‘progress’ successfully unpacked and MD5 sums checked
+package ‘readxl’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+        C:\Users\chinedu okolie\AppData\Local\Temp\RtmpiAhWIW\downloaded_packages
+> library("readxl")
+> read_excel("C:\Users\chinedu okolie\Downloads\MSC\\Fresh_extract_Diss.xlsx")
+Error: '\U' used without hex digits in character string (<input>:1:16)
+> library("readxl")
+> read_excel("C:/Users/chinedu okolie/Downloads/MSC//Fresh_extract_Diss.xlsx")
+
+-
+/
+                                                                              
+
+/
+                                                                              
+
+-
+                                                                              
+# A tibble: 14 x 11
+    Date Region      Average of Valid vot~1 `Male%` `Female %` Asian Black Mixed
+   <dbl> <chr>                        <dbl>   <dbl>      <dbl> <dbl> <dbl> <dbl>
+ 1  2018 East Midla~                  0.326   0.492      0.508 0.08  0.027 0.024
+ 2  2018 East of En~                  0.341   0          0     0     0     0    
+ 3  2018 North West                   0.361   0.491      0.509 0.084 0.023 0.022
+ 4  2018 South East                   0.356   0.489      0.511 0.07  0.024 0.028
+ 5  2018 South West                   0.367   0.489      0.511 0.028 0.012 0.02 
+ 6  2018 West Midla~                  0.318   0.492      0.508 0.133 0.045 0.03 
+ 7  2018 Yorkshire ~                  0.379   0.491      0.509 0.089 0.021 0.021
+ 8  2017 East Midla~                  0.340   0.492      0.508 0.08  0.027 0.024
+ 9  2017 East of En~                  0.336   0          0     0     0     0    
+10  2017 North West                   0.365   0.491      0.509 0.084 0.023 0.022
+11  2017 South East                   0.352   0.489      0.511 0.07  0.024 0.028
+12  2017 South West                   0.377   0.489      0.511 0.028 0.012 0.02 
+13  2017 West Midla~                  0.335   0.492      0.508 0.133 0.045 0.03 
+14  2017 Yorkshire ~                  0.356   0.491      0.509 0.089 0.021 0.021
+# i abbreviated name: 1: `Average of Valid votes turnout (%)`
+# i 3 more variables: White <dbl>, `Other Ethnic Group` <dbl>,
+#   `Use of Internet / Online electorate` <dbl>
+> 
+> cor(tibble,method = "Pearson")
+Error in match.arg(method) : 
+  'arg' should be one of “pearson”, “kendall”, “spearman”
+>  cor(tibble,method = "pearson")
+Error: object 'tibble' not found
+> Diss_df <- read_excel("C:/Users/chinedu okolie/Downloads/MSC//Fresh_extract_Diss.xlsx")
+
+-
+/
+                                                                                                  
+
+/
+                                                                                                  
+
+-
+                                                                                                  
+> cor(Diss_df, method ="pearson)"
++ cor(Diss_df, method = "pearson")
+Error: unexpected symbol in:
+"cor(Diss_df, method ="pearson)"
+cor"
+> cor(Diss_df, method = "pearson")
+Error in cor(Diss_df, method = "pearson") : 'x' must be numeric
+> Diss_model <- lm(Average of Valid votes turnout (%)
+Error: unexpected symbol in "Diss_model <- lm(Average of"
+> Diss_model <- lm(Average of Valid votes turnout (%) ~ Date + Use of Internet / Online electorate, data = Diss_df )
+Error: unexpected symbol in "Diss_model <- lm(Average of"
+
+> > library("readxl")
+> read_excel("C:/Users/chinedu okolie/Downloads/MSC//Fresh_extract_Diss.xlsx")
+
+-
+/
+                                                                                                  
+
+/
+                                                                                                  
+
+-
+                                                                                                  
+# A tibble: 14 x 11
+    Date Region    Turnout  Male Female Asian Black Mixed White `Other Ethnic Group` Use_of_Internet
+   <dbl> <chr>       <dbl> <dbl>  <dbl> <dbl> <dbl> <dbl> <dbl>                <dbl>           <dbl>
+ 1  2018 East Mid~   0.326 0.492  0.508 0.08  0.027 0.024 0.857                0.013           0.903
+ 2  2018 East of ~   0.341 0      0     0     0     0     0                    0               0.915
+ 3  2018 North We~   0.361 0.491  0.509 0.084 0.023 0.022 0.856                0.015           0.920
+ 4  2018 South Ea~   0.356 0.489  0.511 0.07  0.024 0.028 0.863                0.015           0.955
+ 5  2018 South We~   0.367 0.489  0.511 0.028 0.012 0.02  0.931                0.009           0.921
+ 6  2018 West Mid~   0.318 0.492  0.508 0.133 0.045 0.03  0.77                 0.021           0.914
+ 7  2018 Yorkshir~   0.379 0.491  0.509 0.089 0.021 0.021 0.854                0.014           0.892
+ 8  2017 East Mid~   0.340 0.492  0.508 0.08  0.027 0.024 0.857                0.013           0.887
+ 9  2017 East of ~   0.336 0      0     0     0     0     0                    0               0.927
+10  2017 North We~   0.365 0.491  0.509 0.084 0.023 0.022 0.856                0.015           0.885
+11  2017 South Ea~   0.352 0.489  0.511 0.07  0.024 0.028 0.863                0.015           0.925
+12  2017 South We~   0.377 0.489  0.511 0.028 0.012 0.02  0.931                0.009           0.827
+13  2017 West Mid~   0.335 0.492  0.508 0.133 0.045 0.03  0.77                 0.021           0.88 
+14  2017 Yorkshir~   0.356 0.491  0.509 0.089 0.021 0.021 0.854                0.014           0.872
+> Diss_df <- read_excel("C:/Users/chinedu okolie/Downloads/MSC//Fresh_extract_Diss.xlsx")
+
+-
+/
+                                                                                                  
+
+/
+                                                                                                  
+
+-
+                                                                                                  
+> Diss_model <- lm(Turnout ~ Date + Use_of_Internet, data = Diss_df )
+> summary(Diss_model)
+
+Call:
+lm(formula = Turnout ~ Date + Use_of_Internet, data = Diss_df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.032489 -0.011155  0.005224  0.013054  0.023401 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)
+(Intercept)     -10.033978  24.002133  -0.418    0.684
+Date              0.005247   0.011943   0.439    0.669
+Use_of_Internet  -0.223376   0.199211  -1.121    0.286
+
+Residual standard error: 0.01908 on 11 degrees of freedom
+Multiple R-squared:  0.1047,    Adjusted R-squared:  -0.05813 
+F-statistic: 0.6429 on 2 and 11 DF,  p-value: 0.5444
+
+> plot(Diss_model)
+Waiting to confirm page change...
+Waiting to confirm page change...
+Waiting to confirm page change...
+Waiting to confirm page change...
+> plot(Diss_model)
+Waiting to confirm page change...
+Waiting to confirm page change...
+Waiting to confirm page change...
+Waiting to confirm page change...
+> 
+> 
+> 
+> 
+
+
+> > > boxplot(Diss_model)
+Error in sort.int(x, na.last = na.last, decreasing = decreasing, ...) : 
+  'x' must be atomic
+> ggplot(Diss_model)
+Error in ggplot(Diss_model) : could not find function "ggplot"
+> install.ggplot
+Error: object 'install.ggplot' not found
+> plot.ts(Diss_model)
+Error in xy.coords(x, NULL, log = log, setLab = FALSE) : 
+  'list' object cannot be coerced to type 'double'
+> pairs(Diss_model)
+Error in as.data.frame.default(x) : 
+  cannot coerce class ‘"lm"’ to a data.frame
+> splom(Diss_model)
+Error in splom(Diss_model) : could not find function "splom"
+> dput(Diss_model)
+structure(list(coefficients = c(`(Intercept)` = -10.0339777753505, 
+Date = 0.00524709055404127, Use_of_Internet = -0.223376240616535
+), residuals = c(`1` = -0.0264752439671634, `2` = -0.00914330604837312, 
+`3` = 0.0119106459347467, `4` = 0.015005534588299, `5` = 0.0177903514526674, 
+`6` = -0.0324892173838266, `7` = 0.0234012354236589, `8` = -0.0118250843333452, 
+`9` = -0.00615433254017659, `10` = 0.0131847144762306, `11` = 0.0091728611264392, 
+`12` = 0.0126602013105316, `13` = -0.0183136252565236, `14` = 0.00127526521683515
+), effects = c(`(Intercept)` = -1.31206196330665, Date = 0.00322203126212817, 
+Use_of_Internet = 0.0213937470985912, 0.0139598462924063, 0.0228766439231313, 
+-0.0262051327520044, 0.0334932264789036, -0.00785732140631034, 
+-0.00938226132876423, 0.0174653335648143, 0.00631738014921921, 
+0.0273246653800447, -0.0131838251580218, 0.00789485656080752), 
+    rank = 3L, fitted.values = c(`1` = 0.352886373367876, `2` = 0.350317546600784, 
+    `3` = 0.349189496585671, `4` = 0.341371328164092, `5` = 0.349033133217239, 
+    `6` = 0.35052975402937, `7` = 0.355287667954502, `8` = 0.35138083484416, 
+    `9` = 0.342389941159345, `10` = 0.351771743265239, `11` = 0.342855308327296, 
+    `12` = 0.364746179907716, `13` = 0.352832780408168, `14` = 0.354694249079972
+    ), assign = 0:2, qr = structure(list(qr = structure(c(-3.74165738677394, 
+    0.267261241912424, 0.267261241912424, 0.267261241912424, 
+    0.267261241912424, 0.267261241912424, 0.267261241912424, 
+    0.267261241912424, 0.267261241912424, 0.267261241912424, 
+    0.267261241912424, 0.267261241912424, 0.267261241912424, 
+    0.267261241912424, -7548.79377781643, -1.87082869338706, 
+    0.210896722059475, 0.210896722059475, 0.210896722059475, 
+    0.210896722059475, 0.210896722059475, -0.323625761765348, 
+    -0.323625761765348, -0.323625761765348, -0.323625761765348, 
+    -0.323625761765348, -0.323625761765348, -0.323625761765348, 
+    -3.37294377743156, -0.058369855233671, -0.0957744970527883, 
+    0.42338425014331, 0.0652513331821848, -0.00470465934375138, 
+    -0.227102068418737, 0.0388032465762148, 0.459061261377537, 
+    0.0205311589761558, 0.437308776139372, -0.585928129463848, 
+    -0.0290645073668567, -0.116074448319511), dim = c(14L, 3L
+    ), dimnames = list(c("1", "2", "3", "4", "5", "6", "7", "8", 
+    "9", "10", "11", "12", "13", "14"), c("(Intercept)", "Date", 
+    "Use_of_Internet")), assign = 0:2), qraux = c(1.26726124191242, 
+    1.21089672205948, 1.05794249814216), pivot = 1:3, tol = 1e-07, 
+        rank = 3L), class = "qr"), df.residual = 11L, xlevels = structure(list(), names = character(0)), 
+    call = lm(formula = Turnout ~ Date + Use_of_Internet, data = Diss_df), 
+    terms = Turnout ~ Date + Use_of_Internet, model = structure(list(
+        Turnout = c(0.326411129400713, 0.341174240552411, 0.361100142520418, 
+        0.356376862752391, 0.366823484669907, 0.318040536645544, 
+        0.378688903378161, 0.339555750510815, 0.336235608619168, 
+        0.36495645774147, 0.352028169453735, 0.377406381218248, 
+        0.334519155151644, 0.355969514296807), Date = c(2018, 
+        2018, 2018, 2018, 2018, 2018, 2018, 2017, 2017, 2017, 
+        2017, 2017, 2017, 2017), Use_of_Internet = c(0.90325, 
+        0.91475, 0.9198, 0.9548, 0.9205, 0.9138, 0.8925, 0.8865, 
+        0.92675, 0.88475, 0.924666666666667, 0.826666666666667, 
+        0.88, 0.871666666666667)), terms = Turnout ~ Date + Use_of_Internet, row.names = c(NA, 
+    14L), class = "data.frame")), class = "lm")
+> print(dput(Diss_model))
+structure(list(coefficients = c(`(Intercept)` = -10.0339777753505, 
+Date = 0.00524709055404127, Use_of_Internet = -0.223376240616535
+), residuals = c(`1` = -0.0264752439671634, `2` = -0.00914330604837312, 
+`3` = 0.0119106459347467, `4` = 0.015005534588299, `5` = 0.0177903514526674, 
+`6` = -0.0324892173838266, `7` = 0.0234012354236589, `8` = -0.0118250843333452, 
+`9` = -0.00615433254017659, `10` = 0.0131847144762306, `11` = 0.0091728611264392, 
+`12` = 0.0126602013105316, `13` = -0.0183136252565236, `14` = 0.00127526521683515
+), effects = c(`(Intercept)` = -1.31206196330665, Date = 0.00322203126212817, 
+Use_of_Internet = 0.0213937470985912, 0.0139598462924063, 0.0228766439231313, 
+-0.0262051327520044, 0.0334932264789036, -0.00785732140631034, 
+-0.00938226132876423, 0.0174653335648143, 0.00631738014921921, 
+0.0273246653800447, -0.0131838251580218, 0.00789485656080752), 
+    rank = 3L, fitted.values = c(`1` = 0.352886373367876, `2` = 0.350317546600784, 
+    `3` = 0.349189496585671, `4` = 0.341371328164092, `5` = 0.349033133217239, 
+    `6` = 0.35052975402937, `7` = 0.355287667954502, `8` = 0.35138083484416, 
+    `9` = 0.342389941159345, `10` = 0.351771743265239, `11` = 0.342855308327296, 
+    `12` = 0.364746179907716, `13` = 0.352832780408168, `14` = 0.354694249079972
+    ), assign = 0:2, qr = structure(list(qr = structure(c(-3.74165738677394, 
+    0.267261241912424, 0.267261241912424, 0.267261241912424, 
+    0.267261241912424, 0.267261241912424, 0.267261241912424, 
+    0.267261241912424, 0.267261241912424, 0.267261241912424, 
+    0.267261241912424, 0.267261241912424, 0.267261241912424, 
+    0.267261241912424, -7548.79377781643, -1.87082869338706, 
+    0.210896722059475, 0.210896722059475, 0.210896722059475, 
+    0.210896722059475, 0.210896722059475, -0.323625761765348, 
+    -0.323625761765348, -0.323625761765348, -0.323625761765348, 
+    -0.323625761765348, -0.323625761765348, -0.323625761765348, 
+    -3.37294377743156, -0.058369855233671, -0.0957744970527883, 
+    0.42338425014331, 0.0652513331821848, -0.00470465934375138, 
+    -0.227102068418737, 0.0388032465762148, 0.459061261377537, 
+    0.0205311589761558, 0.437308776139372, -0.585928129463848, 
+    -0.0290645073668567, -0.116074448319511), dim = c(14L, 3L
+    ), dimnames = list(c("1", "2", "3", "4", "5", "6", "7", "8", 
+    "9", "10", "11", "12", "13", "14"), c("(Intercept)", "Date", 
+    "Use_of_Internet")), assign = 0:2), qraux = c(1.26726124191242, 
+    1.21089672205948, 1.05794249814216), pivot = 1:3, tol = 1e-07, 
+        rank = 3L), class = "qr"), df.residual = 11L, xlevels = structure(list(), names = character(0)), 
+    call = lm(formula = Turnout ~ Date + Use_of_Internet, data = Diss_df), 
+    terms = Turnout ~ Date + Use_of_Internet, model = structure(list(
+        Turnout = c(0.326411129400713, 0.341174240552411, 0.361100142520418, 
+        0.356376862752391, 0.366823484669907, 0.318040536645544, 
+        0.378688903378161, 0.339555750510815, 0.336235608619168, 
+        0.36495645774147, 0.352028169453735, 0.377406381218248, 
+        0.334519155151644, 0.355969514296807), Date = c(2018, 
+        2018, 2018, 2018, 2018, 2018, 2018, 2017, 2017, 2017, 
+        2017, 2017, 2017, 2017), Use_of_Internet = c(0.90325, 
+        0.91475, 0.9198, 0.9548, 0.9205, 0.9138, 0.8925, 0.8865, 
+        0.92675, 0.88475, 0.924666666666667, 0.826666666666667, 
+        0.88, 0.871666666666667)), terms = Turnout ~ Date + Use_of_Internet, row.names = c(NA, 
+    14L), class = "data.frame")), class = "lm")
+
+Call:
+lm(formula = Turnout ~ Date + Use_of_Internet, data = Diss_df)
+
+Coefficients:
+    (Intercept)             Date  Use_of_Internet  
+     -10.033978         0.005247        -0.223376  
+
+> 
+Warning messages:
+1: unable to open printer 
+2: opening device failed 
+> 
+> 
+> pairs(Diss_model)
+Error in as.data.frame.default(x) : 
+  cannot coerce class ‘"lm"’ to a data.frame
+> str(Diss_model)
+List of 12
+ $ coefficients : Named num [1:3] -10.03398 0.00525 -0.22338
+  ..- attr(*, "names")= chr [1:3] "(Intercept)" "Date" "Use_of_Internet"
+ $ residuals    : Named num [1:14] -0.02648 -0.00914 0.01191 0.01501 0.01779 ...
+  ..- attr(*, "names")= chr [1:14] "1" "2" "3" "4" ...
+ $ effects      : Named num [1:14] -1.31206 0.00322 0.02139 0.01396 0.02288 ...
+  ..- attr(*, "names")= chr [1:14] "(Intercept)" "Date" "Use_of_Internet" "" ...
+ $ rank         : int 3
+ $ fitted.values: Named num [1:14] 0.353 0.35 0.349 0.341 0.349 ...
+  ..- attr(*, "names")= chr [1:14] "1" "2" "3" "4" ...
+ $ assign       : int [1:3] 0 1 2
+ $ qr           :List of 5
+  ..$ qr   : num [1:14, 1:3] -3.742 0.267 0.267 0.267 0.267 ...
+  .. ..- attr(*, "dimnames")=List of 2
+  .. .. ..$ : chr [1:14] "1" "2" "3" "4" ...
+  .. .. ..$ : chr [1:3] "(Intercept)" "Date" "Use_of_Internet"
+  .. ..- attr(*, "assign")= int [1:3] 0 1 2
+  ..$ qraux: num [1:3] 1.27 1.21 1.06
+  ..$ pivot: int [1:3] 1 2 3
+  ..$ tol  : num 1e-07
+  ..$ rank : int 3
+  ..- attr(*, "class")= chr "qr"
+ $ df.residual  : int 11
+ $ xlevels      : Named list()
+ $ call         : language lm(formula = Turnout ~ Date + Use_of_Internet, data = Diss_df)
+ $ terms        :Classes 'terms', 'formula'  language Turnout ~ Date + Use_of_Internet
+  .. ..- attr(*, "variables")= language list(Turnout, Date, Use_of_Internet)
+  .. ..- attr(*, "factors")= int [1:3, 1:2] 0 1 0 0 0 1
+  .. .. ..- attr(*, "dimnames")=List of 2
+  .. .. .. ..$ : chr [1:3] "Turnout" "Date" "Use_of_Internet"
+  .. .. .. ..$ : chr [1:2] "Date" "Use_of_Internet"
+  .. ..- attr(*, "term.labels")= chr [1:2] "Date" "Use_of_Internet"
+  .. ..- attr(*, "order")= int [1:2] 1 1
+  .. ..- attr(*, "intercept")= int 1
+  .. ..- attr(*, "response")= int 1
+  .. ..- attr(*, ".Environment")=<environment: R_GlobalEnv> 
+  .. ..- attr(*, "predvars")= language list(Turnout, Date, Use_of_Internet)
+  .. ..- attr(*, "dataClasses")= Named chr [1:3] "numeric" "numeric" "numeric"
+  .. .. ..- attr(*, "names")= chr [1:3] "Turnout" "Date" "Use_of_Internet"
+ $ model        :'data.frame':  14 obs. of  3 variables:
+  ..$ Turnout        : num [1:14] 0.326 0.341 0.361 0.356 0.367 ...
+  ..$ Date           : num [1:14] 2018 2018 2018 2018 2018 ...
+  ..$ Use_of_Internet: num [1:14] 0.903 0.915 0.92 0.955 0.921 ...
+  ..- attr(*, "terms")=Classes 'terms', 'formula'  language Turnout ~ Date + Use_of_Internet
+  .. .. ..- attr(*, "variables")= language list(Turnout, Date, Use_of_Internet)
+  .. .. ..- attr(*, "factors")= int [1:3, 1:2] 0 1 0 0 0 1
+  .. .. .. ..- attr(*, "dimnames")=List of 2
+  .. .. .. .. ..$ : chr [1:3] "Turnout" "Date" "Use_of_Internet"
+  .. .. .. .. ..$ : chr [1:2] "Date" "Use_of_Internet"
+  .. .. ..- attr(*, "term.labels")= chr [1:2] "Date" "Use_of_Internet"
+  .. .. ..- attr(*, "order")= int [1:2] 1 1
+  .. .. ..- attr(*, "intercept")= int 1
+  .. .. ..- attr(*, "response")= int 1
+  .. .. ..- attr(*, ".Environment")=<environment: R_GlobalEnv> 
+  .. .. ..- attr(*, "predvars")= language list(Turnout, Date, Use_of_Internet)
+  .. .. ..- attr(*, "dataClasses")= Named chr [1:3] "numeric" "numeric" "numeric"
+  .. .. .. ..- attr(*, "names")= chr [1:3] "Turnout" "Date" "Use_of_Internet"
+ - attr(*, "class")= chr "lm"
+> plot(Diss_df)
+> Diss_Date_Turnout_df <- [,c('Date', 'Turnout', 'Use_of_Internet')]
+Error: unexpected '[' in "Diss_Date_Turnout_df <- ["
+> Diss_Date_Int_Turnout_df <- [,c("Date", "Turnout", "Use_of_Internet")]
+Error: unexpected '[' in "Diss_Date_Int_Turnout_df <- ["
+> Diss_Date_Int_Turnout_df <- Diss_df [,c("Date", "Turnout", "Use_of_Internet")]
+> plot(Diss_Date_Int_Turnout_df)
+> Diss_Male_Female_Turnout_df <- Diss_df [,c("Turnout", "Male","Female")]
+> plotDiss_Male_Female_Turnout_df <- Diss_df [,c("Turnout", "Male","Female")]
+
+> plot(Diss_Male_Female_Turnout_df)
+> Diss_Male_Female_Turnout_model <- lm(Turnout ~ Male + Female, data = Diss_df )
+> summary(Diss_Male_Female_Turnout_model)
+
+Call:
+lm(formula = Turnout ~ Male + Female, data = Diss_df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.022036 -0.010393 -0.001039  0.008383  0.029177 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.33870    0.01061  31.921 3.39e-12 ***
+Male        -4.79155    1.76906  -2.709   0.0203 *  
+Female       4.64333    1.70422   2.725   0.0198 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.01501 on 11 degrees of freedom
+Multiple R-squared:  0.4462,    Adjusted R-squared:  0.3455 
+F-statistic: 4.431 on 2 and 11 DF,  p-value: 0.03878
+
+> 
+> Diss_Demographics_df <- Diss_df [,c("Asian", "Black","Mixed","White","Other Ethnic Group")]
+> plot(Diss_Demographics_df)
+> plot(Diss_Male_Female_Turnout_df)
+> Diss_Demographics_model <- lm(Turnout ~ Asian + Black + Mixed + White + Other Ethnic Group, data = Diss_df )
+Error: unexpected symbol in "Diss_Demographics_model <- lm(Turnout ~ Asian + Black + Mixed + White + Other Ethnic"
+> > > library("readxl")
+Error: unexpected '>' in ">"
+> > read_excel("C:/Users/chinedu okolie/Downloads/MSC//Fresh_extract_Diss.xlsx")
+Error: unexpected '>' in ">"
+> library("readxl")
+> read_excel("C:/Users/chinedu okolie/Downloads/MSC//Fresh_extract_Diss.xlsx")
+
+-
+/
+                                                                                                          
+
+/
+                                                                                                          
+
+-
+                                                                                                          
+# A tibble: 14 x 11
+    Date Region              Turnout  Male Female Asian Black Mixed White Other_Ethnic_Group Use_of_Internet
+   <dbl> <chr>                 <dbl> <dbl>  <dbl> <dbl> <dbl> <dbl> <dbl>              <dbl>           <dbl>
+ 1  2018 East Midlands         0.326 0.492  0.508 0.08  0.027 0.024 0.857              0.013           0.903
+ 2  2018 East of England       0.341 0      0     0     0     0     0                  0               0.915
+ 3  2018 North West            0.361 0.491  0.509 0.084 0.023 0.022 0.856              0.015           0.920
+ 4  2018 South East            0.356 0.489  0.511 0.07  0.024 0.028 0.863              0.015           0.955
+ 5  2018 South West            0.367 0.489  0.511 0.028 0.012 0.02  0.931              0.009           0.921
+ 6  2018 West Midlands         0.318 0.492  0.508 0.133 0.045 0.03  0.77               0.021           0.914
+ 7  2018 Yorkshire and The ~   0.379 0.491  0.509 0.089 0.021 0.021 0.854              0.014           0.892
+ 8  2017 East Midlands         0.340 0.492  0.508 0.08  0.027 0.024 0.857              0.013           0.887
+ 9  2017 East of England       0.336 0      0     0     0     0     0                  0               0.927
+10  2017 North West            0.365 0.491  0.509 0.084 0.023 0.022 0.856              0.015           0.885
+11  2017 South East            0.352 0.489  0.511 0.07  0.024 0.028 0.863              0.015           0.925
+12  2017 South West            0.377 0.489  0.511 0.028 0.012 0.02  0.931              0.009           0.827
+13  2017 West Midlands         0.335 0.492  0.508 0.133 0.045 0.03  0.77               0.021           0.88 
+14  2017 Yorkshire and The ~   0.356 0.491  0.509 0.089 0.021 0.021 0.854              0.014           0.872
+> library("readxl")
+> read_excel("C:/Users/chinedu okolie/Downloads/MSC//Fresh_extract_Diss.xlsx")
+
+-
+/
+                                                                                                          
+
+/
+                                                                                                          
+
+-
+                                                                                                          
+# A tibble: 14 x 11
+    Date Region              Turnout  Male Female Asian Black Mixed White Other_Ethnic_Group Use_of_Internet
+   <dbl> <chr>                 <dbl> <dbl>  <dbl> <dbl> <dbl> <dbl> <dbl>              <dbl>           <dbl>
+ 1  2018 East Midlands         0.326 0.492  0.508 0.08  0.027 0.024 0.857              0.013           0.903
+ 2  2018 East of England       0.341 0      0     0     0     0     0                  0               0.915
+ 3  2018 North West            0.361 0.491  0.509 0.084 0.023 0.022 0.856              0.015           0.920
+ 4  2018 South East            0.356 0.489  0.511 0.07  0.024 0.028 0.863              0.015           0.955
+ 5  2018 South West            0.367 0.489  0.511 0.028 0.012 0.02  0.931              0.009           0.921
+ 6  2018 West Midlands         0.318 0.492  0.508 0.133 0.045 0.03  0.77               0.021           0.914
+ 7  2018 Yorkshire and The ~   0.379 0.491  0.509 0.089 0.021 0.021 0.854              0.014           0.892
+ 8  2017 East Midlands         0.340 0.492  0.508 0.08  0.027 0.024 0.857              0.013           0.887
+ 9  2017 East of England       0.336 0      0     0     0     0     0                  0               0.927
+10  2017 North West            0.365 0.491  0.509 0.084 0.023 0.022 0.856              0.015           0.885
+11  2017 South East            0.352 0.489  0.511 0.07  0.024 0.028 0.863              0.015           0.925
+12  2017 South West            0.377 0.489  0.511 0.028 0.012 0.02  0.931              0.009           0.827
+13  2017 West Midlands         0.335 0.492  0.508 0.133 0.045 0.03  0.77               0.021           0.88 
+14  2017 Yorkshire and The ~   0.356 0.491  0.509 0.089 0.021 0.021 0.854              0.014           0.872
+> Diss_Demographics_model <- lm(Turnout ~ Asian + Black + Mixed + White + Other_Ethnic_Group, data = Diss_df )
+Error in eval(predvars, data, env) : 
+  object 'Other_Ethnic_Group' not found
+> Diss_df <- read_excel("C:/Users/chinedu okolie/Downloads/MSC//Fresh_extract_Diss.xlsx")
+
+-
+/
+                                                                                                          
+
+/
+                                                                                                          
+
+-
+                                                                                                          
+> Diss_Demographics_model <- lm(Turnout ~ Asian + Black + Mixed + White + Other_Ethnic_Group, data = Diss_df )
+> summary(Diss_Demographics_model)
+
+Call:
+lm(formula = Turnout ~ Asian + Black + Mixed + White + Other_Ethnic_Group, 
+    data = Diss_df)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.009255 -0.005450 -0.002520  0.003533  0.014681 
+
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)         0.338713   0.006427  52.699 1.86e-11 ***
+Asian              -0.378154   0.452287  -0.836   0.4274    
+Black              -2.456438   1.179658  -2.082   0.0709 .  
+Mixed              -2.675387   2.154733  -1.242   0.2495    
+White               0.045749   0.028699   1.594   0.1496    
+Other_Ethnic_Group  9.117806   3.854942   2.365   0.0456 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.00909 on 8 degrees of freedom
+Multiple R-squared:  0.8522,    Adjusted R-squared:  0.7598 
+F-statistic: 9.226 on 5 and 8 DF,  p-value: 0.003566
+
+> library("readxl")
